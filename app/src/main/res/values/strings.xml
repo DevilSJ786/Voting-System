@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">VotingSystem</string>
+    <string name="phone_number">Enter Phone Number</string>
+    <string name="login_button">LOGIN</string>
+    <string name="verify_button">VERIFY OTP</string>
+    <string name="otp_number">Enter OTP</string>
+    <string name="resend_button">RESEND OTP</string>
+    <string name="create_your_poll">Create Your Poll</string>
+    <string name="poll">Poll :</string>
+    <string name="who_will_win_state_elections">Enter your Poll</string>
+    <string name="write_option_1">Write Option 1</string>
+    <string name="write_option_2">Write Option 2</string>
+    <string name="write_option_3">Write Option 3</string>
+    <string name="publish">Publish</string>
+    <string name="success">poll is added</string>
+    <string name="ap">image</string>
+    <string name="logout">LOGOUT</string>
+    <string name="rpoll">Your poll is here</string>
+    <string name="rop1">Rohit Jain</string>
+    <string name="rop2">Deepak Sharma</string>
+    <string name="rop3">Devil King</string>
+    <string name="time">30 min ago…</string>
+    <string name="no_polls">NO_Polls</string>
+    <string name="title">Title</string>
+    <string name="choice1">Choice1</string>
+    <string name="choice2">Choice2</string>
+    <string name="choice3">Choice3</string>
+    <string name="vote1">vote1</string>
+    <string name="vote2">vote2</string>
+    <string name="vote3">vote3</string>
+    <string name="show_result">Stop Voting</string>
+    <string name="about">about</string>
+    <string name="dev_by">developed_by_Subhash__Pardeep</string>
+</resources>

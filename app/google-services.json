@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "172635449825",
+    "project_id": "test-d7406",
+    "storage_bucket": "test-d7406.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172635449825:android:706bf0de4632f7642ecaa0",
+        "android_client_info": {
+          "package_name": "com.devil.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172635449825-rp2bbe59p6p46rv2ttik26cnr4njdatr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqbWttUyyYZQzxHEyB1HTzFfDSfOokiPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172635449825-rp2bbe59p6p46rv2ttik26cnr4njdatr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

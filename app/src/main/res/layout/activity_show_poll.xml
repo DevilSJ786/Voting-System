@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowPoll"
+    android:background="@color/main"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-6dp">
+
+    <TextView
+        android:id="@+id/s_title"
+        android:layout_width="273dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/s_Choice1"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/choice1"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/s_vote1"
+        app:layout_constraintEnd_toStartOf="@+id/s_vote1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/s_Choice2"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/choice2"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/s_vote2"
+        app:layout_constraintEnd_toStartOf="@+id/s_vote2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/s_Choice3"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/choice3"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/s_vote3"
+        app:layout_constraintEnd_toStartOf="@+id/s_vote3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/s_vote1"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="@string/vote1"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/s_Choice1"
+        app:layout_constraintTop_toBottomOf="@+id/s_title" />
+
+    <TextView
+        android:id="@+id/s_vote2"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="4dp"
+        android:gravity="center"
+        android:text="@string/vote2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/s_Choice2"
+        app:layout_constraintTop_toBottomOf="@+id/s_vote1" />
+
+    <TextView
+        android:id="@+id/s_vote3"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="4dp"
+        android:gravity="center"
+        android:text="@string/vote3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/s_Choice3"
+        app:layout_constraintTop_toBottomOf="@+id/s_vote2" />
+
+
+    <Button
+        android:id="@+id/s_rusultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/show_result"
+        android:textColor="@color/black"
+        android:background="@drawable/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s_vote3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
